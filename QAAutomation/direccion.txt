@@ -1,0 +1,5 @@
+C:\workspace\environment\Scripts\activate.bat
+D:\workspace\environment\Scripts\activate.ps1
+executable_path = r"C:\chromedriver\chromedriver.exe"
+if __name__ == "__main__":
+    unittest.main()
