@@ -1,9 +1,13 @@
-echo "# MaquinaDelMal" >> README.md 
-git init 
-git agregar README.md 
-git commit -m "primer compromiso" 
-git branch -M main 
-git remote agregar origen https://github.com/facu231/MaquinaDelMal.git
- git push - u origen principal
+echo "# Proyec"
+git init
+git status 
+git add .
+git commit -m "Se suben todas las modificaciones"
+git branch -M main
+git remote add origin https://github.com/facu231/Proyec.git
+git push -u origin main
+git remote add origin https://github.com/facu231/Proyec.git
+git branch -M main
+git push -u origin main
 
 pause
