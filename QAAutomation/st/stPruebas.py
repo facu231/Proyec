@@ -1,14 +1,14 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
+from st.Js import JsMetod
 import time
 from path.Path import direciones
 from xpath.ploc import *
 from data.Datos import *
 
 
-class stPruebas:
+class stPruebas(JsMetod):
 
     def navegacion_en_google(self,direccion):
         self.driver.get(direciones.Url)
@@ -17,6 +17,7 @@ class stPruebas:
 
     def seleccionar_IpertextoFC(self):
         self.driver.find_element_by_xpath(xpath.Ipertexto).click()
+        self.highlight(xpath.Ipertexto)
         time.sleep(2)
 
     def introducir_correo(self):
@@ -29,8 +30,10 @@ class stPruebas:
         time.sleep(2)
         self.captura()
 
+
     def captura(self):
         if self.driver.get_screenshot_as_file(direciones.direccion):
             print ("se tomo la captura de pantalla")
         else:
             print("No se saco la captura")
+

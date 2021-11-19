@@ -2,6 +2,9 @@ import unittest
 from selenium import webdriver
 from path.Path import direciones
 from st.stPruebas import stPruebas
+import allure
+@allure.feature(u"Google")
+
 class Teste_case(unittest.TestCase,stPruebas):
     def setUp(self):
         self.driver = webdriver.Chrome(direciones.Chromedriver)
