@@ -1,4 +1,4 @@
-echo "# Proyec"
+echo "Proyec"
 git init
 git status 
 git add .
