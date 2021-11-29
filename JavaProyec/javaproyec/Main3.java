@@ -1,27 +1,28 @@
+
+
 package javaproyec;
+import java.util.Scanner;
 
 public class Main3 {
+
     public static void main(String[] args){
 
-    Calcular_Numero_Mayor(323);
-    
+        System.out.println("Ingresa tu nombre: ");
+        Scanner consola = new Scanner(System.in);
+        var nombre = consola.nextLine();
+        System.out.println("Nombre: " + nombre);
+
+        
+
+
+
      
 
-    }
-    
-private static void Calcular_Numero_Mayor(Integer Numero){
 
- if(Numero%2==0){
-        System.out.println("Numero Par" + Numero);
-    }
- else{
-        System.out.println("Numero Inpar" + Numero);
-    } 
 
-    
+
+    }
 }
 
 
 
-
-}
