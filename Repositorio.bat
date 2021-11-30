@@ -7,8 +7,7 @@ git branch -m main
 git push -u origen principal
 git branch -M main
 git push -u origen principal
-git add .
-git commit -m 'reinitialized files'
-git push origin master --force
-
+git add --all :/
+git commit -am 'message'
+git push -u origin master
 pause
