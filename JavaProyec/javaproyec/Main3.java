@@ -11,6 +11,7 @@ public class Main3 {
         Scanner consola = new Scanner(System.in);
         var nombre = consola.nextLine();
         System.out.println("Nombre: " + nombre);
+        
 
         
 
