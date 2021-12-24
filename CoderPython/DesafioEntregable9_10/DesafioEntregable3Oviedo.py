@@ -56,9 +56,9 @@ def intermedio (nro1,nro2):
 ############################################ PARTE(5)
 
 def recortar (nro,limiteMaximo,limiteMinimo):
-    '''Devuelve el límite inferior si el número es menor que éste
-       Devuelve el límite superior si el número es mayor que éste.
-       Devuelve el número sin cambios si no se supera ningún límite
+    '''Devolver el límite inferior si el número es menor que éste
+       Devolver el límite superior si el número es mayor que éste.
+       Devolver el número sin cambios si no se supera ningún límite
     '''
     if not nro < limiteMinimo and  not nro > limiteMaximo:
         return nro
@@ -84,10 +84,13 @@ def separar(lista):
     return print(lista," \n " , "Lista de numeros pares:",listaPar ," \n ", "Lista de numeros inpares:", listaInpar)
 
 lista = [12,2,4,6,9,6,5,54,222,5 ]
-separar (lista)
+#separar (lista)
 
 
-
+#QUITA LOS COMENTARIOS DE LAS LLAMADAS A LAS FUNCIONES PARA QUE FUNCIONEN
+#MUCHAS GRACIAS
+#            
+# \\\(*w*)///
 
 
         
